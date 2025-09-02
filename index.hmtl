@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tags de Formulário.atvd</title>
+</head>
+<body>
+    <section class="principal">
+        <form action="#" class="formulario">
+            
+            <div class="form-titulo">
+                <p class="form-tdois">Form</p> 
+            </div>
+            <input type="text" placeholder="Name" name="nome">
+            
+            <div class="form-grupo-radio">
+                <p class="genero">Gender:</p>
+                <input type="radio" name="Genero:">
+                <p class="form-grupo-radio-texto">Feminine</p>
+                <input type="radio" name="Genero:">
+                <p class="form-grupo-radio-texto">Masculine</p>
+            </div>
+            <div class="form-grupo-checkbox">
+                <input type="checkbox" name="termos">
+                <p class="form-grupo-checkbox-texto">Sport</p>
+                <input type="checkbox" name="termos">
+                 <p class="form-grupo-checkbox-texto">Music</p>
+                <input type="checkbox" name="termos">
+                  <p class="form-grupo-checkbox-texto">Travel</p>
+            </div>
+            <select name="selecao" id="selecao">
+                <option value="" selected disabled>Country</option>
+                <option value="master" >Brazil</option>
+                <option value="funcionario">Other</option>
+            </select>
+            <input type="submit" value="Send" class="btn-enviar">
+        </form>
+    </section>
+</body>
+</html>
